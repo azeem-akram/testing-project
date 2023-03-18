@@ -17,5 +17,6 @@ public class DiceTests {
         Dice dice = new Dice(6, "red");
         int[] rolls = dice.rollMany(4);
         assertEquals(4, rolls.length);
+        assertTrue(rolls.length > 0);
     }
 }
